@@ -9,7 +9,8 @@
 
 version: 2.1
 jobs:
-  build-android:
+  build:
+  # build-android:
     docker:
       - image: circleci/android:api-25-alpha
     steps:
